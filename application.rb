@@ -1,7 +1,7 @@
 require 'sinatra'
 
 get '/' do 
-  erb :index
+  erb :index_two
 end
 
 get '/pick' do

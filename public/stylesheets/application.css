@@ -1,13 +1,19 @@
 body {
   font-family: 'Helvetica Neue';
-  margin-left: auto;
+  text-align: center;
+}
+  /*margin-left: auto;
   margin-right: auto;
 }
    
 
 h1 {
-  text-align: center;
-} 
+} */
+
+.choices {
+  width: 100%;
+  margin: auto;
+}
 
 .choices img {
   cursor: pointer;
@@ -17,10 +23,6 @@ h1 {
   transition: opacity 1s;
 }
 
-.choices {
-width: 100%;
-  margin: 0 auto;
-}
 
 .choices img:hover {
   opacity: 1;
